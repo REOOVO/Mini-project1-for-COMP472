@@ -1,7 +1,7 @@
 # COMP 472 Mini Project 1
 https://github.com/REOOVO/Mini-project1-for-COMP472
 ## Team Members
-Haoxuan Lyu 40087582
+Haoxuan Lyu 40087583
 
 Qitian Fei 40079518
 
