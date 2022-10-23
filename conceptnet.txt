@@ -1,0 +1,75 @@
+base_MLP_e MLPClassifier(max_iter=1):{'activation': 'relu', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': False, 'epsilon': 1e-08, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 1, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+Confusion Matrix: 
+[[  568     6     4     0     0     0     0     0    57     2    60  1443
+      3     0     0]
+ [   24   186     5     0     0     0     2     0    15     0    13  1025
+      0     0     0]
+ [    7    10    36     1     0     0     0     0     3     0    20   884
+      1     0     2]
+ [    9    16    19     1     0     0     0     0    11     0     7  1562
+      0     0     0]
+ [   73     9     0     0     9     0     2     1    35     0    26  2121
+      0     0     0]
+ [    8     4     0     0     0     1     0     0    17     0     6  1111
+      0     0     0]
+ [   13     3     5     0     0     0     9     0     1     1    10  1425
+      0     0     0]
+ [   13     5    24     0     0     0     0     3     1     0     3   538
+      0     0     0]
+ [   46     5     4     0     0     0     0     0   517     4     7   816
+      1     1     0]
+ [   40    37     0     0     0     0     0     0    42    31    35   627
+      0     0     0]
+ [   34     5     2     0     0     0     0     0    16     3   324   579
+      0     0     0]
+ [  163    67    26     0     7     0    13     4    94     8    91 10309
+      2     0     1]
+ [   34     3     0     0     0     0     0     0    38     0     4   796
+      4     0     0]
+ [    2     2     2     0     0     0     0     0    16     0     2   286
+      0     1     0]
+ [    7     2     2     0     0     0     1     1     9     2     4   703
+      1     1     4]]
+Classification Report: 
+              precision    recall  f1-score   support
+
+  admiration       0.48      0.27      0.34      2143
+   amusement       0.47      0.15      0.22      1270
+       anger       0.24      0.04      0.06       964
+   annoyance       0.25      0.00      0.00      1625
+    approval       0.53      0.00      0.01      2276
+   curiosity       1.00      0.00      0.00      1147
+ disapproval       0.27      0.01      0.01      1467
+     disgust       0.23      0.01      0.01       587
+   gratitude       0.54      0.37      0.44      1401
+         joy       0.43      0.04      0.07       812
+        love       0.50      0.34      0.40       963
+     neutral       0.34      0.96      0.50     10785
+    optimism       0.21      0.00      0.01       879
+     remorse       0.33      0.00      0.01       311
+     sadness       0.36      0.01      0.01       737
+
+   micro avg       0.36      0.44      0.39     27367
+   macro avg       0.41      0.15      0.14     27367
+weighted avg       0.40      0.44      0.28     27367
+
+--------------------------------------------
+base_MLP_s MLPClassifier(max_iter=1):{'activation': 'relu', 'alpha': 0.0001, 'batch_size': 'auto', 'beta_1': 0.9, 'beta_2': 0.999, 'early_stopping': False, 'epsilon': 1e-08, 'hidden_layer_sizes': (100,), 'learning_rate': 'constant', 'learning_rate_init': 0.001, 'max_fun': 15000, 'max_iter': 1, 'momentum': 0.9, 'n_iter_no_change': 10, 'nesterovs_momentum': True, 'power_t': 0.5, 'random_state': None, 'shuffle': True, 'solver': 'adam', 'tol': 0.0001, 'validation_fraction': 0.1, 'verbose': False, 'warm_start': False}
+Confusion Matrix: 
+[[ 138  499 2218  853]
+ [  49 2946 3274 1177]
+ [ 116 1468 6647 2554]
+ [  77  912 3701 7045]]
+Classification Report: 
+              precision    recall  f1-score   support
+
+   ambiguous       0.36      0.04      0.07      3708
+    negative       0.51      0.40      0.44      7446
+     neutral       0.42      0.62      0.50     10785
+    positive       0.61      0.60      0.60     11735
+
+    accuracy                           0.50     33674
+   macro avg       0.47      0.41      0.40     33674
+weighted avg       0.50      0.50      0.48     33674
+
+--------------------------------------------
