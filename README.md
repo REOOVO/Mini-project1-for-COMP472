@@ -3,7 +3,7 @@ https://github.com/REOOVO/Mini-project1-for-COMP472
 ## Team Members
 Haoxuan Lyu 40087583
 
-Qitian Fei 40079518
+Tianfei Qi 40079518
 
 ## How to run the program
 
